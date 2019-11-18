@@ -33,8 +33,7 @@
 title: Adel Ansari
 subtitle: Portfolio Page
 description: >- # this means to ignore newlines until "baseurl:"
-  This is the demo site for a Jekyll theme version of
-  HTML5 UP's sleek, responsive site template Prologue.
+  This is a portfolio website.
 author: Adel Ansari
 email: adelansari.a@gmail.com
 avatar: assets/images/avatar.jpg
@@ -59,5 +58,5 @@ dribbble_url:
 google_analytics:
 
 # The following settings are NECESSARY for the Prologue theme to run:
-remote_theme: adelansari/adelansari.github.io
+theme: jekyll-theme-prologue
 collections: [sections]

@@ -63,8 +63,9 @@
 		background: #fff;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 19pt;
-		font-weight: 300;
+		font-weight: 400;
 		line-height: 1.75em;
+		/*color: #2e2e2e;*/
 		color: #2e2e2e;
 
 		&.is-loading * {
@@ -82,7 +83,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-weight: 300;
+		font-weight: 600;
 		color: #000;
 		line-height: 1.5em;
 	}
@@ -161,7 +162,7 @@
 	}
 
 	code {
-		background: rgba(0, 0, 0, 0.05);
+		background: rgba(0, 0, 0, 0.1);
 		border-color: rgba(0, 0, 0, 0.2);
 		border-radius: 4px;
 		font-family: "Courier New", monospace;
@@ -252,7 +253,7 @@
 		&.avatar48 {
 			width: 48px;
 			height: 48px;
-			background: #f00;
+			background: #ffffff00;
 
 			img {
 				width: 48px;
@@ -405,13 +406,16 @@
 
 		td {
 			padding: 0.5em 1em 0.5em 1em;
+			border: solid 1px grey;
+
 		}
 
 		th {
 			text-align: left;
 			padding: 0.5em 1em 0.5em 1em;
+			border: solid 1px grey;
 			color: #fff;
-			background: #222729 url('images/overlay.png');
+			background: #ffffff url('images/overlay.png'); /* behind table background */
 		}
 
 		thead {
@@ -709,7 +713,7 @@
 			}
 
 			&.shade-two {
-				background-color: #f5fafa;
+				background-color: #ffffff;
 			}
 
 			&.shade-three {
