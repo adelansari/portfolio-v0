@@ -6,10 +6,14 @@ permalink: /Projects/Spectrum_Analysis_GUI/
 hide: True
 
 ---
+<form method="" action="https://github.com/adelansari/Spectrum_Analysis_GUI">
+<button class="btn success"> View the Project on GitHub </button>
+</form>
+
 Developed a graphical user interface using MATLAB which analyzes the spectrum of different radiation sources.
 
 <p align="center">
-<img src="Images/2.JPG">
+<img src="Images/2.JPG" width="100%">
 </p>
 
 # Abstract:
@@ -61,3 +65,14 @@ The functionality of remaining buttons are the followings:
 5. Scan for peaks (Log) - plot count/Sec versus energy in log scale with smoothing curves and targeted
 peaks.
 6. Scan for peaks - plot count/Sec versus energy in normal scale with targeted peaks.
+
+
+### Attachments:
+
+<form method="" action="Manual.pdf">
+<button class="btn success"> View Manual PDF </button>
+</form>
+
+<form method="" action="Presentation Project GUI">
+<button class="btn success"> View Report Presentation PDF </button>
+</form>

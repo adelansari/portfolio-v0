@@ -30,6 +30,7 @@ My life as a student has always been an out-of-the-box journey. It is filled wit
 5. Research Experience through completing scientific projects, publishing journals and working as a research assistant in different departments.
 6. Comprehensive technical knowledge in nuclear engineering
 
+
 <p align="center">
 <img src="assets\PageImages\001.png" width="100%">
 </p>

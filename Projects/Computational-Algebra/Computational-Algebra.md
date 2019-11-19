@@ -6,6 +6,10 @@ permalink: /Projects/Computational-Algebra/
 hide: True
 
 ---
+<form method="" action="https://github.com/adelansari/Computational-Algebra">
+<button class="btn success"> View the Project on GitHub </button>
+</form>
+
 3 Scripts: Function solver, Maclaurin series tabulation and electrical circuit current calculator
 
 # Problem Statement:
@@ -29,11 +33,11 @@ hide: True
 **Second script:**
 
 <p align="center">
-<img src="Images/3.PNG"| width=600>
+<img src="Images/3.PNG" width=600>
 </p>
 
 **Third script:**
 
 <p align="center">
-<img src="Images/4.PNG"| width=600>
+<img src="Images/4.PNG" width=600>
 </p>

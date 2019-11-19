@@ -5,7 +5,9 @@ icon: fa-chalkboard-teacher
 order: 3
 ---
 
-Following you can find courses I have taken online by either out of interest or to develop a particular skill:
+Whether it is shear interest or for personal development, I got them all!
+
+Following are a list of online courses I have completed.
 
 <center><img src="assets\PageImages\udemy.png" width="300"></center>
 

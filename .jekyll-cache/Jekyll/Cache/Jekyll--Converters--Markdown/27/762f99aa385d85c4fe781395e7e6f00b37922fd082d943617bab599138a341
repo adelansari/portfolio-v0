@@ -1,0 +1,49 @@
+I"	<p>Connecting the wheels and tires to the car is a simple concept, but doing it in a manner which obtains good performance is a different matter altogether. In traveling around the circuit, the car experiences bumps from the track surface, and weight transfers from braking, accelerating, and cornering, and the design of the suspension geometry (relative angles and lengths) determines how the vehicle reacts to these forces. It has been a topic of interest to control vehicles and allow the wheels to move, adjust, and adapt to quickly changing road and driving conditions.
+In this project, the aim was to design the front wheel suspension kinematics and components for a Formula Student race car with two different mechanisms (Double wishbone and McPherson suspension systems). The objective from the point view of kinematics is to design the linkage that fully determines the wheel path in specified manner when the wheel is having a vertical motion relative to the frame of car</p>
+
+<p align="center">
+<img src="Images/animation.gif" width="700" />
+</p>
+
+<p>In this project, the following areas were covered:</p>
+
+<ol>
+  <li>Selection of concept based on MBS, FEM and Requirements</li>
+  <li>Machine components and materials</li>
+  <li>Lifetime calculation</li>
+  <li>Geometrical rendering</li>
+  <li>Evaluating the requirements</li>
+  <li>Description of the design process</li>
+  <li>FEA result comparison with estimated values of deflections and stresses</li>
+  <li>Cost estimate</li>
+  <li>Bill of Materials</li>
+</ol>
+
+<h1 id="figures">Figures</h1>
+
+<p>The script written in <code class="highlighter-rouge">code1.m</code> creates a series of plots that show the relative count rate or relative subcritical multiplication factor (i.e. Mr(ρ) = C(ρ)/Co) versus subcriticality level, ρ.  In particular, it generate the following four plots with ρ starting at ρo = -10 dollars:</p>
+
+<p>Mr vs ρ ,  1/Mr vs. ρ ,   Mr vs k   and  1/Mr vs. k</p>
+
+<p><strong>Output</strong></p>
+
+<p align="center">
+<img src="Images/02.png" width="60%" />
+</p>
+
+<p align="center">
+<img src="Images/01.png" width="60%" />
+</p>
+
+<p align="center">
+<img src="Images/03.png" width="60%" />
+</p>
+
+<p align="center">
+<img src="Images/04.png" width="60%" />
+</p>
+
+<p align="center">
+<img src="Images/05.png" width="60%" />
+</p>
+:ET

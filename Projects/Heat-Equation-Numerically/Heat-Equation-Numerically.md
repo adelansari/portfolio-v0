@@ -5,6 +5,11 @@ icon: fa-book
 permalink: /Projects/Heat-Equation-Numerically/
 hide: True
 ---
+<form method="" action="https://github.com/adelansari/Heat-Equation-Numerically">
+<button class="btn success"> View the Project on GitHub </button>
+</form>
+
+
 Script to solve the heat equation in soil with seasonal temperature forcing
 
 Heat equation is a partial differential equation. Its solution gives the distribution of temperature in a region as a function of space and time when the temperature at the boundaries, the initial distribution of temperature, and the physical properties of the medium are specified. In this project, our aim is to numerically observe the heat diffusion in a piece of land up to a depth of 100 meters, and a time period of 1 year (1 year is ideal, since the 4 yearly seasons will guarantee that the temperature will go back to its original value yearly). We will implement the numerical solution in the computing environment of the software known as MATLAB. We also aim to derive the heat equation analytically. Finally, we will present a model-problem related to our field of study (Nuclear engineering), which relies on the heat equation.

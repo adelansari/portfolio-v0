@@ -1,0 +1,32 @@
+I"<form method="" action="Flux-in-Lattice">
+<button class="btn success"> View the Project on GitHub </button>
+</form>
+
+<h1 id="flux-in-lattice">Flux-in-Lattice</h1>
+<p>Solving non-homogenous linear system using the following methods:</p>
+<ol>
+  <li>Triangular Factorization Method</li>
+  <li>Gaussian Elimination Method</li>
+  <li>Jacobi Iterative method</li>
+  <li>Gauss-Seidel Iterative Method</li>
+  <li>Successive Relaxation Method</li>
+</ol>
+
+<p>The code “project.m” will perform the following tasks:</p>
+<ol>
+  <li>Ask the user to specify the length of the region or mesh size.</li>
+  <li>Specify the number of divisions or number of meshes.</li>
+  <li>Enter the macroscopic absorption cross section.</li>
+  <li>Enter the Diffusion coefficient.</li>
+  <li>Entering the flux values.</li>
+  <li>Displaying the flux coefficients in Matrix form.</li>
+  <li>Entering the source values (asks the user to choose between entering it manually at each division or specifying the source-function in terms of the variable rad).</li>
+  <li>Asking the user to choose the method to use for solving the matrix.</li>
+  <li>Check and show errors if any (maximum element in column X is zero and no exact solution for singular matrix)</li>
+  <li>Solve according to the selected method.</li>
+  <li>Display the number of iterations in each method.</li>
+  <li>Print the Flux and Norm in the last iteration.</li>
+  <li>Plot the flux &amp; the norm for the specified method.</li>
+  <li>Ask the user whether to continue and try another method or exit the program.</li>
+</ol>
+:ET

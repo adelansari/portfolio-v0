@@ -6,6 +6,10 @@ permalink: /Projects/Flux-in-Lattice/
 hide: True
 
 ---
+<form method="" action="https://github.com/adelansari/Flux-in-Lattice">
+<button class="btn success"> View the Project on GitHub </button>
+</form>
+
 
 # Flux-in-Lattice
 Solving non-homogenous linear system using the following methods:

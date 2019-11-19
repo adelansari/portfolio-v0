@@ -10,6 +10,8 @@ Here you can find some of the projects I worked on:
 
 
 ### Project Index:
+- [Front Wheel Suspension Detailed Design](/Projects/Front-Wheel-Suspension-Detailed-Design/)
+- [Crane Hook Sway Simulation and Control](/Projects/Crane-Hook-Sway-Simulation-and-Control/)
 - [Approach to Critical](/Projects/Approach-to-Critical/)
 - [Computational Algebra](/Projects/Computational-Algebra/)
 - [DC Circuits Analyzer](/Projects/DC-circuits-analyzer/)

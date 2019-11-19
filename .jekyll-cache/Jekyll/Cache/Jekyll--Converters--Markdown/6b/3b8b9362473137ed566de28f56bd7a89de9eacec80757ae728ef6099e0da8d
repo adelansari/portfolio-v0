@@ -1,0 +1,58 @@
+I"Z<p align="center">
+&lt;a href="https://github.com/adelansari/Approach-to-Critical" class="class="btn btn-white"&gt;View the Project on GitHub &lt;/a&gt;
+</p>
+<hr />
+
+<p>Use the concept of the subcritical multiplication factor to predict the critical height of a control blade within a research reactor.</p>
+
+<p>Performing an “Approach to Critical” experiment by plotting the traditional 1/M curves is an excellent means for illustrating the behavior of subcritical systems, for highlighting the importance of the subcritical multiplication factor, and for showing how knowledge of the detector count rate in different configurations can give an experimental methodology for predicting when a system will reach the critical state.</p>
+
+<h1 id="script-1">Script 1</h1>
+
+<p>The script written in <code class="highlighter-rouge">code1.m</code> creates a series of plots that show the relative count rate or relative subcritical multiplication factor (i.e. Mr(ρ) = C(ρ)/Co) versus subcriticality level, ρ.  In particular, it generate the following four plots with ρ starting at ρo = -10 dollars:</p>
+
+<p>Mr vs ρ ,  1/Mr vs. ρ ,   Mr vs k   and  1/Mr vs. k</p>
+
+<p><strong>Output</strong></p>
+
+<p align="center">
+<img src="Images/1.png" width="60%" />
+</p>
+
+<p align="center">
+<img src="Images/2.png" width="60%" />
+</p>
+
+<p align="center">
+<img src="Images/3.png" width="60%" />
+</p>
+
+<p align="center">
+<img src="Images/4.png" width="60%" />
+</p>
+
+<p>The curves are meaningful as they follow the theory and equations.
+In the case of Mr vs ρ: Mr should increase exponentially as ρ increases and Mr → ∞as ρ→ 0.
+In the case of 1/Mr vs ρ: Mr should decrease linearly as ρ increases, and 1/Mr →0 as ρ → 0.
+In the case of Mr vs K: Mr should increase exponentially with k’s increase, and M → ∞ as k approaches 1.
+In the case of 1/Mr vs K: Mr should decrease linearly with k’s increase, and 1/Mr → 0 as k → 1.
+The 1/Mr vs ρ or 1/Mr vs k graphs are more informative, since the x-intercept represents criticality and is much easier to read.</p>
+
+<h1 id="script-2">Script 2</h1>
+
+<p>The you should use the pkeqns_nofdbk.m function to</p>
+
+<p>In order to simulate the behavior of a subcritical system with a series of positive step changes in reactivity, I wrote <code class="highlighter-rouge">pksim_test.m</code> code which uses the <code class="highlighter-rouge">pkeqns_nofdbk.m</code> code (written by J. R. White).  At each step, the level of subcriticality should be reduced by a factor of two until one gets close to critical  –  within -0.5 dollars should be sufficient to show the desired behavior here. The simulation starts at steady state subcritical with ρo = -10 dollars and add sufficient positive reactivity at each step to reduce the total reactivity by a factor of two each time.  Using the kinetics data for the UMLRR, including the source strength, S, and other parameters as obtained from the <code class="highlighter-rouge">kinetics_data.m</code> function file.  I used the <code class="highlighter-rouge">pksim_test.m</code> file as a starting point, making sure that the initial conditions set properly and that I get the tt and rhot vectors to mimic the desired sequence of step reactivity changes.</p>
+
+<p>The Matlab code <code class="highlighter-rouge">pksim_test.m</code> was developed to simulate a steady, subcritical state with ρo = -10 dollars. Each time, sufficient positive reactivity was added at each step to reduce the total reactivity by a factor of two. By plotting P(t)/P_0 vs time, the sudden change in power were more understandable. The reactivity graphs show the effect of adding reactivity until the system reached near criticality. The result make sense as it is consistent with the theory. In case P_0 was chosen to be a larger number, the effect of the initial negative reactivity will be noticed (huge prompt drop).</p>
+
+<p align="center"><img src="tex/bc7255a8d2a6e02e72d10e0ec8aa9ec1.svg?invert_in_darkmode&amp;sanitize=true&amp;sanitize=true" align="middle" width="40%" /></p>
+
+<p align="center">
+<img src="Images/5.png" width="60%" />
+</p>
+
+<p align="center">
+<img src="Images/6.png" width="60%" />
+</p>
+:ET

@@ -1,0 +1,17 @@
+---
+title: Publications
+layout: "page"
+icon: fa-microscope
+order: 5
+---
+
+Here you can find a general version of my CV
+
+
+- El-Sayed S, Ishag A, Kassar A, Aljassmi A, Ansari A. Measurement of Natural Radioactivity in Soil Samples from Some Areas of Sharjah by Gamma-Ray Spectrometry. Environ Sci Ind J. 2018;14(3):166
+
+<embed src="https://www.tsijournals.com/articles/measurement-of-natural-radioactivity-in-soil-samples-from-some-areas-of-sharjah-by-gammaray-spectrometry.pdf" type="application/pdf" width="100%" height="600px" />
+
+- Zubair M, Kassar AA, Hamouda Ishag AM, Ansari AA, Hussain Aljassmi AA (2016) Radiation Measurement in the University of Sharjah. Int J Magn Nucl Sci. 2(5), 33-38
+
+<embed src="http://dx.doi.org/10.19070/2577-4387-160006" type="application/pdf" width="100%" height="600px" />

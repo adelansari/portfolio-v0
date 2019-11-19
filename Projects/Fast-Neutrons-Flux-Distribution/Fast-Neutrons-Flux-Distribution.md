@@ -6,6 +6,11 @@ permalink: /Projects/Fast-Neutrons-Flux-Distribution/
 hide: True
 
 ---
+<form method="" action="https://github.com/adelansari/Fast-Neutrons-Flux-Distribution">
+<button class="btn success"> View the Project on GitHub </button>
+</form>
+
+
 Numerical solution of the one speed diffusion equation to find the flux distribution
 
 # Problem statement

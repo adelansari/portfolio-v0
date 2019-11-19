@@ -6,6 +6,9 @@ permalink: /Projects/Radon-Calculator/
 hide: True
 
 ---
+<form method="" action="https://github.com/adelansari/Level-Range-Gauge">
+<button class="btn success"> View the Project on GitHub </button>
+</form>
 
 ## Overview:
 The Radon Calculator software was designed in order to calculate the radon concentration in Bq/m3 using Rad Elec E-PERM equipment. The software was developed using Microsoft Visual Basic. Visual Basic is a simple way to create programs for Microsoft Windows that uses “Beginners All-Purpose Symbolic Instruction Code” programming language. It is easier to create an application or a graphical user interface using the components provided in the software. An executable setup file was generated so that any user can use the “Radon Calculator” software in his/her computer after installation. The main reasons of making this software are:

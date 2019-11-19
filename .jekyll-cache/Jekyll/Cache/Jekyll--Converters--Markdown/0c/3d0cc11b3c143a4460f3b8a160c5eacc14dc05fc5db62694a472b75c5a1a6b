@@ -1,0 +1,196 @@
+I"Ê<!-- Text stuff -->
+<h2>Text</h2>
+<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+	This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+	This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>.
+	Finally, this is a <a href="#">link</a>.</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;hr /&gt;
+&lt;h2&gt;Heading Level 2&lt;/h2&gt;
+&lt;h3&gt;Heading Level 3&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;header&gt;
+	&lt;h2&gt;Heading with a Subtitle&lt;/h2&gt;
+	&lt;p&gt;Lorem ipsum dolor sit amet nullam id egestas urna aliquam&lt;/p&gt;
+&lt;/header&gt;
+&lt;p&gt;Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;!-- Lists --&gt;
+&lt;h2&gt;Lists&lt;/h2&gt;
+&lt;div class="row"&gt;
+	&lt;div class="6u 12u$(small)"&gt;
+		
+		&lt;h3&gt;Unordered&lt;/h3&gt;
+		&lt;ul&gt;
+			&lt;li&gt;Dolor pulvinar etiam.&lt;/li&gt;
+			&lt;li&gt;Sagittis lorem eleifend.&lt;/li&gt;
+			&lt;li&gt;Felis feugiat dolore viverra.&lt;/li&gt;
+			&lt;li&gt;Dolor pulvinar etiam.&lt;/li&gt;
+		&lt;/ul&gt;
+		
+		&lt;h3&gt;Icons&lt;/h3&gt;
+		&lt;ul class="icons"&gt;
+			&lt;li&gt;&lt;a href="#" class="icon fa-envelope"&gt;&lt;span class="label"&gt;Twitter&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href="#" class="icon-r fa-envelope"&gt;&lt;span class="label"&gt;Twitter&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href="#" class="icon fa-user"&gt;&lt;span class="label"&gt;Facebook&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href="#" class="icon-r fa-user"&gt;&lt;span class="label"&gt;Instagram&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href="#" class="icon-b fa-github"&gt;&lt;span class="label"&gt;Github&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href="#" class="icon-b fa-github-alt"&gt;&lt;span class="label"&gt;Dribbble&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+		
+	&lt;/div&gt;
+	&lt;div class="6u$ 12u$(small)"&gt;
+		
+		&lt;h3&gt;Ordered&lt;/h3&gt;
+		&lt;ol&gt;
+			&lt;li&gt;Dolor pulvinar etiam.&lt;/li&gt;
+			&lt;li&gt;Etiam vel felis at viverra.&lt;/li&gt;
+			&lt;li&gt;Felis enim feugiat magna.&lt;/li&gt;
+			&lt;li&gt;Etiam vel felis nullam.&lt;/li&gt;
+			&lt;li&gt;Felis enim et tempus.&lt;/li&gt;
+		&lt;/ol&gt;
+	
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;Definition&lt;/h3&gt;
+&lt;dl&gt;
+	&lt;dt&gt;Item 1&lt;/dt&gt;
+	&lt;dd&gt;
+		&lt;p&gt;Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.&lt;/p&gt;
+	&lt;/dd&gt;
+	&lt;dt&gt;Item 2&lt;/dt&gt;
+	&lt;dd&gt;
+		&lt;p&gt;Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.&lt;/p&gt;
+	&lt;/dd&gt;
+	&lt;dt&gt;Item 3&lt;/dt&gt;
+	&lt;dd&gt;
+		&lt;p&gt;Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.&lt;/p&gt;
+	&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;h3&gt;Button&lt;/h3&gt;
+	&lt;a href="#" class="button"&gt;Button&lt;/a&gt;
+	&lt;a href="#" class="button icon fa-search"&gt;Icon&lt;/a&gt;
+
+&lt;hr /&gt;
+
+&lt;!-- Blockquote --&gt;
+&lt;h2&gt;Blockquote&lt;/h2&gt;
+&lt;blockquote&gt;Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis.&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;!-- Table --&gt;
+&lt;h2&gt;Table&lt;/h2&gt;
+&lt;div class="table-wrapper"&gt;
+	&lt;table&gt;
+		&lt;thead&gt;
+			&lt;tr&gt;
+				&lt;th&gt;Name&lt;/th&gt;
+				&lt;th&gt;Description&lt;/th&gt;
+				&lt;th&gt;Price&lt;/th&gt;
+			&lt;/tr&gt;
+		&lt;/thead&gt;
+		&lt;tbody&gt;
+			&lt;tr&gt;
+				&lt;td&gt;Item 1&lt;/td&gt;
+				&lt;td&gt;Ante turpis integer aliquet porttitor.&lt;/td&gt;
+				&lt;td&gt;29.99&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;Item 2&lt;/td&gt;
+				&lt;td&gt;Vis ac commodo adipiscing arcu aliquet.&lt;/td&gt;
+				&lt;td&gt;19.99&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;Item 3&lt;/td&gt;
+				&lt;td&gt; Morbi faucibus arcu accumsan lorem.&lt;/td&gt;
+				&lt;td&gt;29.99&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;Item 4&lt;/td&gt;
+				&lt;td&gt;Vitae integer tempus condimentum.&lt;/td&gt;
+				&lt;td&gt;19.99&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;Item 5&lt;/td&gt;
+				&lt;td&gt;Ante turpis integer aliquet porttitor.&lt;/td&gt;
+				&lt;td&gt;29.99&lt;/td&gt;
+			&lt;/tr&gt;
+		&lt;/tbody&gt;
+		&lt;tfoot&gt;
+			&lt;tr&gt;
+				&lt;td colspan="2"&gt;&lt;/td&gt;
+				&lt;td&gt;100.00&lt;/td&gt;
+			&lt;/tr&gt;
+		&lt;/tfoot&gt;
+	&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;!-- Form --&gt;
+&lt;h2&gt;Form&lt;/h2&gt;
+
+&lt;form method="post" action="#"&gt;
+	&lt;div class="row uniform"&gt;
+		&lt;div class="6u 12u$(xsmall)"&gt;
+			&lt;input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" /&gt;
+		&lt;/div&gt;
+		&lt;div class="6u$ 12u$(xsmall)"&gt;
+			&lt;input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" /&gt;
+		&lt;/div&gt;
+		&lt;!-- Break --&gt;
+		&lt;div class="12u$"&gt;
+			&lt;div class="select-wrapper"&gt;
+				&lt;select name="demo-category" id="demo-category"&gt;
+					&lt;option value=""&gt;- Category -&lt;/option&gt;
+					&lt;option value="1"&gt;Manufacturing&lt;/option&gt;
+					&lt;option value="1"&gt;Shipping&lt;/option&gt;
+					&lt;option value="1"&gt;Administration&lt;/option&gt;
+					&lt;option value="1"&gt;Human Resources&lt;/option&gt;
+				&lt;/select&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;!-- Break --&gt;
+		&lt;div class="4u 12u$(small)"&gt;
+			&lt;input type="radio" id="demo-priority-low" name="demo-priority" checked&gt;
+			&lt;label for="demo-priority-low"&gt;Low&lt;/label&gt;
+		&lt;/div&gt;
+		&lt;div class="4u 12u$(small)"&gt;
+			&lt;input type="radio" id="demo-priority-normal" name="demo-priority"&gt;
+			&lt;label for="demo-priority-normal"&gt;Normal&lt;/label&gt;
+		&lt;/div&gt;
+		&lt;div class="4u$ 12u$(small)"&gt;
+			&lt;input type="radio" id="demo-priority-high" name="demo-priority"&gt;
+			&lt;label for="demo-priority-high"&gt;High&lt;/label&gt;
+		&lt;/div&gt;
+		&lt;!-- Break --&gt;
+		&lt;div class="6u 12u$(small)"&gt;
+			&lt;input type="checkbox" id="demo-copy" name="demo-copy"&gt;
+			&lt;label for="demo-copy"&gt;Email me a copy&lt;/label&gt;
+		&lt;/div&gt;
+		&lt;div class="6u$ 12u$(small)"&gt;
+			&lt;input type="checkbox" id="demo-human" name="demo-human" checked&gt;
+			&lt;label for="demo-human"&gt;I am a human&lt;/label&gt;
+		&lt;/div&gt;
+		&lt;!-- Break --&gt;
+		&lt;div class="12u$"&gt;
+			&lt;textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"&gt;&lt;/textarea&gt;
+		&lt;/div&gt;
+		&lt;!-- Break --&gt;
+		&lt;div class="12u$"&gt;
+			&lt;div class="actions"&gt;
+				&lt;input type="submit" value="Send Message" class="special" /&gt;
+				&lt;input type="reset" value="Reset" /&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/form&gt;
+
+&lt;hr /&gt;
+
+&lt;!-- Image --&gt;
+&lt;h2&gt;Image&lt;/h2&gt;
+</code></pre></div></div>
+:ET

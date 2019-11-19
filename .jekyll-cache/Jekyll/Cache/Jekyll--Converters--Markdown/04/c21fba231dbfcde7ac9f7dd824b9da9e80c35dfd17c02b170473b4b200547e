@@ -1,0 +1,43 @@
+I"�<form method="" action="Fast-Neutrons-Flux-Distribution">
+<button class="btn success"> View the Project on GitHub </button>
+</form>
+
+<p>Numerical solution of the one speed diffusion equation to find the flux distribution</p>
+
+<h1 id="problem-statement">Problem statement</h1>
+<p>The attached code named “fluxdistribution.m” in the repository is written to solve the following problems:</p>
+
+<p align="center">
+<img src="Images/1.PNG" />
+</p>
+
+<h1 id="output-figures-for-the-questions">Output figures for the questions:</h1>
+
+<p><strong>Problems 2</strong></p>
+
+<p align="center">
+<img src="Images/2.png" />
+</p>
+
+<p align="center">
+<img src="Images/6.png" />
+</p>
+
+<p><strong>Problem 3</strong></p>
+
+<p align="center">
+<img src="Images/3.png" />
+</p>
+
+<p><strong>Problem 4</strong></p>
+
+<p align="center">
+<img src="Images/4.png" />
+</p>
+
+<p><strong>Problem 5</strong></p>
+
+<p align="center">
+<img src="Images/5.png" />
+</p>
+:ET

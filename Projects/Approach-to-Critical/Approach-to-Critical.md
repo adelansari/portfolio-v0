@@ -10,10 +10,9 @@ hide: True
 <button class="btn success"> View the Project on GitHub </button>
 </form>
 
-
 Use the concept of the subcritical multiplication factor to predict the critical height of a control blade within a research reactor.
 
-Performing an “Approach to Critical” experiment by plotting the traditional 1/M curves is an excellent means for illustrating the behavior of subcritical systems, for highlighting the importance of the subcritical multiplication factor, and for showing how knowledge of the detector count rate in different configurations can give an experimental methodology for predicting when a system will reach the critical state.  
+Performing an “Approach to Critical” experiment by plotting the traditional 1/M curves is an excellent means for illustrating the behavior of subcritical systems, for highlighting the importance of the subcritical multiplication factor, and for showing how knowledge of the detector count rate in different configurations can give an experimental methodology for predicting when a system will reach the critical state.
 
 # Script 1
 

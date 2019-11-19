@@ -1,7 +1,7 @@
 ---
 title: Curriculum Vitae
 layout: "page"
-icon: fa-file
+icon: fa-scroll
 order: 4
 ---
 

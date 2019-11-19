@@ -1,0 +1,98 @@
+I"�<p>Developed a graphical user interface using MATLAB which analyzes the spectrum of different radiation sources.</p>
+
+<p align="center">
+<img src="Images/2.JPG" width="100%" />
+</p>
+
+<h1 id="abstract">Abstract:</h1>
+
+<p>For the spectrum analysis MATLAB program have been developed with Graphical User Interface (GUI). The functionalities of this program are the followings:</p>
+
+<ol>
+  <li>Load a spectrum input data formatted in two columns, the first column is channel number and the second column is total counts per channel. The following file
+formats for input file are allowed: “.txt”, “.dat”, “.xls”, “xlsx”. In case of different file format is selected a error dialog box will appear.</li>
+  <li>Can accept from user the following inputs: total time of the measurement and two data points of channel and corresponding energy (I.e. E1, ch1 and E2, ch2).</li>
+  <li>Using this program user can plot energy vs counts/sec, count vs channel, counts vs energy and energy vs counts/sec in logarithmic scale.</li>
+  <li>This program can scan the plotted spectrum for peaks.</li>
+  <li>The following information for each peaks are reported: energy, count rate, Full Width Half Maximum (FWHM), resolution, Peak efficiency and standard deviation of the peak efficiency.</li>
+  <li>Summary file with the information reported above is produced ( NOTE: The file name will be Results and open it using Word Pad ).</li>
+</ol>
+
+<h1 id="introduction">Introduction</h1>
+
+<p>When Spectrum Analysis GUI program starts only “Open data file” button is enabled.</p>
+
+<p>Pressing the button “Open data file” dialog box appears, which allows to choose input file from any location inside your PC. The following file formats for input file are allowed: “.txt”, “.dat”, “.xls”,
+“xlsx”. The input data must be formatted in two columns, the first column is channel number and the second column is total counts per channel and without any column names in the input file.</p>
+
+<p>After loading the input file. The user can input the total time of the measurement, two data points of channel and corresponding energy (I.e. E1, ch1 and E2, ch2) for energy calibration. The default values</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Total time</td>
+      <td>2 minutes</td>
+    </tr>
+    <tr>
+      <td>Channel 1</td>
+      <td>95</td>
+    </tr>
+    <tr>
+      <td>Channel 2</td>
+      <td>530</td>
+    </tr>
+    <tr>
+      <td>Energy 1</td>
+      <td>0.24 MeV</td>
+    </tr>
+    <tr>
+      <td>Energy 2</td>
+      <td>1.33 MeV</td>
+    </tr>
+    <tr>
+      <td>Source strength</td>
+      <td>5 Curie</td>
+    </tr>
+    <tr>
+      <td>Solid angle</td>
+      <td>0.2 steradians</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>These parameters can be changed. In case of inputting negative values for these parameters, an error
+dialog box appears and all buttons and fields become disabled. User must input positive values
+for these parameters.
+When the correct input parameters are set, all buttons become enabled. By pressing scan for peaks
+the spectrum analysis is performed and in the figure the counts/Sec vs energy is plotted. The positions
+of peaks are marked in the plot. When the peaks are found, in the bottom part of GUI, information
+about these peaks will appear. Also this information is automatically saved in separate file
+(“Results.txt”) in the same directory where the input file is located.</p>
+
+<p>The functionality of remaining buttons are the followings:</p>
+<ol>
+  <li>Counts vs Channel – plot counts versus channel number.</li>
+  <li>Counts vs Energy – plot counts versus energy.</li>
+  <li>Log Plot - plot count/Sec versus energy in log scale,</li>
+  <li>Reset - clear plot.</li>
+  <li>Scan for peaks (Log) - plot count/Sec versus energy in log scale with smoothing curves and targeted
+peaks.</li>
+  <li>Scan for peaks - plot count/Sec versus energy in normal scale with targeted peaks.</li>
+</ol>
+
+<h3 id="attachments">Attachments:</h3>
+
+<form method="" action="Manual.pdf">
+<button class="btn success"> View Manual PDF </button>
+</form>
+
+<form method="" action="Presentation Project GUI">
+<button class="btn success"> View Report Presentation PDF </button>
+</form>
+:ET

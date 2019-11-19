@@ -1,0 +1,310 @@
+I"</<form method="" action="https://github.com/adelansari/Reactivity-Measurements-Techniques">
+<button class="btn success"> View the Project on GitHub </button>
+</form>
+
+<p>Use a variety of reactivity measurement techniques to actually measure reactivity levels and reactivity changes in a real reactor.</p>
+
+<h1 id="documentation">Documentation:</h1>
+
+<p>The purpose is to become familiar with different reactivity measurement techniques that are used to predict the expected change in reactivity by determining the worth of control components per reactor configuration.
+Initially the UMLRR was on steady state at 500 W for several minutes while RegBlade was in Auto Mode.</p>
+
+<p>The four phases of of operation can be formalized as follow:</p>
+
+<p><strong>Critical Operation:</strong></p>
+<ul>
+  <li>Phase 1: Small reactivity changes from critical (asymptotic period technique)
+    <ul>
+      <li>Positive ρ: Switch the regblade mode from auto to manual and withdraw it about 3 inches. After waiting for the reactor to 5 kW, switch the regblade to auto mode to stabilize the reactor at that power.</li>
+      <li>Negative ρ: Switch the regblade to manual mode and ramp in the regblade about 4.5 inches into the core. Let the power decreases to about from 5 kW to 500 W. Then, set the regblade to auto to let the power stabilize at the new level.</li>
+    </ul>
+  </li>
+  <li>Phase 2: Blade drop method
+    <ul>
+      <li>Insert the startup source into the core while being in auto mode and wait till the reactor stabilizes. This step will help in studying the worth of the startup source for later use.</li>
+      <li>Next, switch the regblade to manual mode and drop the blade of interest (blade 1 in this lab) into the core by re-attaching the blade drive mechanism to go into the subcritical state. Once the startup counter stabilized, proceed to phase 3.</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>Subcritical Operation:</strong></p>
+<ul>
+  <li>Phase 3: Subcritical reactivity change (positive ρ)
+    <ul>
+      <li>Withdraw the blade of interest (blade#1) to a maximum of 2 inches below its initial height (15 inches was withdrawn in the lab).</li>
+      <li>Once the startup counter reached an average equilibrium, proceed to the next phase.</li>
+    </ul>
+  </li>
+  <li>Phase 4: Source Jerk Method
+    <ul>
+      <li>Remove the startup source and wait and monitor the sub criticality with the startup counter.
+Once the system stabilizes, wait for some time and save the history file and follow the reactor shutdown checklist.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="stable-period-method">Stable Period Method</h2>
+<p>Processes the data from the Phase I tests and use the Stable Period Method to determine the amount of reactivity inserted for both the positive and negative reactivity transients that were performed.</p>
+
+<p><strong>Phase 1: Positive ρ</strong>
+A reduced data file <code class="highlighter-rouge">Problem2_positive.dat</code> was created using UMLRR GUI. I wrote a code <code class="highlighter-rouge">Problem2_positive.m</code> that generates various plots for the specified region.</p>
+
+<p align="center">
+<img src="Images/1.png" width="600" />
+</p>
+
+<p align="center">
+&lt;img src="Images/2.png width=600&gt;
+</p>
+
+<p align="center">
+<img src="Images/3.png" width="600" />
+</p>
+
+<p>According to the result generated in the command windows:</p>
+
+<p>Total reactivity change ($) = ρ<sub>1</sub> - ρ<sub>0</sub> = $0.0858 - $0 = $0.0858</p>
+
+<p>Regblade was withdrawn from 10.41 inches to 13.47 inches as shown below:</p>
+
+<p align="center">
+<img src="Images/7.png" width="600" />
+</p>
+
+<p align="center">
+<img src="Images/8.png" width="600" />
+</p>
+
+<p>The measured ρ obtained from the real experiment and calculated using the code written in Matlab ($0.0858)  is almost the same as the one calculated from the blade_worth_curve.p ($0.0859). The very small change is believed to be caused by the different change in total reactivity per inch due to the fuel consumption. Effects of feedback might have caused the small difference as it was not present in the experiment (feedback is important at 10 kW). However, the blade worth curve might have included the feedback effect.</p>
+
+<p><strong>Phase 2: Negative ρ</strong></p>
+
+<p align="center">
+<img src="Images/4.png" width="600" />
+</p>
+
+<p align="center">
+<img src="Images/5.png" width="600" />
+</p>
+
+<p align="center">
+<img src="Images/6.png" width="600" />
+</p>
+
+<p>According to the result generated in the command windows:</p>
+
+<p>Total reactivity change ($) = ρ<sub>1</sub> - ρ<sub>0</sub> = -$0.1187 - $0 = - $0.1187</p>
+
+<p>Regblade was withdrawn from 10.630 inches to 6.168 inches as shown below:</p>
+
+<p align="center">
+<img src="Images/9.png" width="600" />
+</p>
+
+<p align="center">
+<img src="Images/10.png" width="600" />
+</p>
+
+<h2 id="startup-source-insertion">Startup Source Insertion</h2>
+
+<p>Here I will start to estimate the reactivity worth associate with the insertion of the startup source at the beginning of the Phase II test.</p>
+
+<p>The fission source dominates the external source in terms of fission production and hence the negative reactivity reflected is larger than the positive reactivity insertion.
+By putting the source in, some of the water reflector will be removed which represents a negative reactivity. In order for the reactor to stay essentially critical, the regblade will come out a little.</p>
+
+<p align="center">
+<img src="Images/11.png" width="600" />
+</p>
+
+<p>Insertion of startup source added negative reactivity. Since the regblade is in automode, it will try to maintain constant power by withdrawing the regblade. The total reactivity change by taking into account the initial position of the blade and final position are found as shown below:</p>
+
+<p>Regblade was withdrawn from 10.96 inches to 11.03 inches.</p>
+
+<p align="center">
+<img src="Images/12.png" width="600" />
+</p>
+
+<p>The value is very small since the start-up source is only effective in the subcritical region.
+The negative was added because the start-up source is opposite in magnitude to that of the compensation movement of the regulating blade.</p>
+
+<h2 id="rod-drop-method">Rod Drop Method</h2>
+
+<p>Here I estimate the amount of reactivity inserted when Blade #1 was dropped into the core.</p>
+
+<p align="center">
+<img src="Images/13.png" width="600" height="400" />
+</p>
+
+<p>The reactivity can be estimated by integrating the area under the power curve and subtracting the background from it.
+By loading <code class="highlighter-rouge">Problem4.dat</code> data file in <code class="highlighter-rouge">Problem4.m</code> code, the following plots and output was obtained:</p>
+
+<p align="center">
+<img src="Images/14.png" width="600" />
+</p>
+
+<p align="center">
+<img src="Images/15.png" width="600" />
+</p>
+
+<p align="center">
+<img src="Images/16.png" width="350" />
+</p>
+
+<p>Using the blade worth curve:
+Blade 1 was withdrawn from 16.95 inches to 0.</p>
+
+<p align="center">
+<img src="Images/17.png" width="600" />
+</p>
+
+<p>The reactivity obtained are close to each other. The small difference is due to the error in specifying the region of interest in the data file. Furthermore, the fuel depletion plays a rule here since the blade curves were produced on Jan, 2016.</p>
+
+<h2 id="subcritical-multiplication-factor-method">Subcritical Multiplication Factor Method</h2>
+
+<p>Here I estimate the worth associated with the Phase III test using an estimate for the subcriticality level prior to the reactivity change from the Phase II tests.</p>
+
+<p align="center">
+<img src="Images/18.png" width="600" height="400" />
+</p>
+
+<p align="center">
+<img src="Images/19.png" width="600" height="400" />
+</p>
+
+<p>In this part, the reactor operator withdrew blade#1 from 0 to 15 inches (~2 inches away from the initial critical height of 16.95). The initial count rate (C<sub>0</sub>) was ~42 cps. After the ramp change and waiting sufficient time for the reactor to stabilize, the final count rate (C<sub>1</sub>) reached ~320 cps.</p>
+
+<p align="center">&lt;img src="/tex/6c22c2a04c9e89f00d46cfa1dd748f5b.svg?invert_in_darkmode&amp;sanitize=true" align=middle width=410.10482039999994pt height=49.315569599999996pt/&gt;</p>
+
+<p align="center">&lt;img src="/tex/fe503ce12cef7544cf76de9f6f7a265c.svg?invert_in_darkmode&amp;sanitize=true" align=middle width=359.65888695pt height=43.715357399999995pt/&gt;</p>
+
+<p><strong>Analytical:</strong></p>
+
+<p align="center">&lt;img src="/tex/764af1f406fe4fdb8ef0773467d7c887.svg?invert_in_darkmode&amp;sanitize=true" align=middle width=546.8957273999999pt height=16.438356pt/&gt;</p>
+
+<p>Using the <strong>blade worth curve</strong>:
+Blade 1 was withdrawn from 0 to 15 inches.</p>
+
+<p align="center">
+<img src="Images/20.png" width="600" />
+</p>
+
+<p><strong>Numerical:</strong>
+Using the matlab code <code class="highlighter-rouge">Problem5.m</code> that was written to calculate the measured Δρ:</p>
+
+<p align="center">
+<img src="Images/21.png" width="600" />
+</p>
+
+<p align="center">
+<img src="Images/22.png" width="600" />
+</p>
+
+<p>Δρ=$2.545</p>
+
+<p>To wrap up:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Method</th>
+      <th>($) Δρ</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Analytical</td>
+      <td>2.56</td>
+    </tr>
+    <tr>
+      <td>Blade worth curve</td>
+      <td>2.535</td>
+    </tr>
+    <tr>
+      <td>Matlab (numerical)</td>
+      <td>2.545</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The reactivity obtained from the 3 above methods were similar to each other which shows that our approach to measure the change in reactivity was correct.</p>
+
+<h2 id="source-jerk-method">Source Jerk Method</h2>
+
+<p>In this section, I will try to estimate the subcriticality level at the beginning of the Phase IV sequence.
+In phase 4, we are going to use the following expression to measure the subcriticality level:</p>
+
+<p align="center">&lt;img src="/tex/af60d1ed645872ddc269e2817205f808.svg?invert_in_darkmode&amp;sanitize=true" align=middle width=248.85224925pt height=42.00482055pt/&gt;</p>
+
+<p>Where:</p>
+<ul>
+  <li>t<sub>d</sub> is obtained from the kinetics data</li>
+  <li>T<sub>0-</sub>  (first value in the pmnorm array)</li>
+  <li>T(t)dt (calculated using trapz function).</li>
+</ul>
+
+<p>The following expression will be used in our calculations:</p>
+
+<p align="center">&lt;img src="/tex/f0dbfb75e01832240b0ef127f2cd0268.svg?invert_in_darkmode&amp;sanitize=true" align=middle width=153.7598667pt height=37.1910528pt/&gt;</p>
+
+<p align="center">
+<img src="Images/23.png" width="600" height="400" />
+</p>
+
+<p>C<sub>0</sub>=C<sub>1</sub> from phase 3 = 320 cps</p>
+
+<p><strong>Analytical solution:</strong></p>
+
+<p>From phase 3:</p>
+
+<p align="center">&lt;img src="/tex/00ed9350e9c3ee3dbdba978457541d3c.svg?invert_in_darkmode&amp;sanitize=true" align=middle width=332.48282265pt height=16.438356pt/&gt;</p>
+
+<p>Sub criticality level:</p>
+
+<p align="center">&lt;img src="/tex/87925356129a7521625ac568b0363952.svg?invert_in_darkmode&amp;sanitize=true" align=middle width=217.62051135pt height=14.611878599999999pt/&gt;</p>
+
+<p>Using <strong>blade worth curve</strong>:</p>
+
+<p align="center">
+<img src="Images/24.png" width="600" />
+</p>
+
+<p><strong>Numerical solution:</strong>
+Using the code <code class="highlighter-rouge">Problem6.m</code> prepared in matlab to solve this part:</p>
+
+<p align="center">
+<img src="Images/25.png" width="600" />
+</p>
+
+<p align="center">
+<img src="Images/26.png" width="350" />
+</p>
+
+<p>The graph associated with removing the startup source has a decreasing trend as expected.</p>
+
+<p>To wrap up:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Method</th>
+      <th>($) Δρ</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Analytical</td>
+      <td>-0.402</td>
+    </tr>
+    <tr>
+      <td>Blade worth curve</td>
+      <td>-0.413</td>
+    </tr>
+    <tr>
+      <td>Matlab (numerical)</td>
+      <td>-0.403</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The reactivity obtained from the 3 above methods were similar to each other which shows that our approach to measure the change in reactivity was correct.</p>
+:ET
